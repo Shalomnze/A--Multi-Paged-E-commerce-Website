@@ -140,7 +140,9 @@ p{
     display: flex;
     /* display: grid; */
     /* grid-template-columns: auto auto; */
-    justify-content: space-between;
+    /* come back to it */
+    /* justify-content: space-between; */
+    justify-content: space-around;
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -459,3 +461,27 @@ footer .icons i:hover,
 footer a:hover{
     color: #7E4897;
 }
+
+@media only screen and (orientation: potrait){
+}
+
+@media(max-width:799px){
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right:-300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 80px 0 0 10px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+}   
