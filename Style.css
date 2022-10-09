@@ -398,7 +398,9 @@ button.white{
 }
 
 
-footer{
+
+
+.flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -408,7 +410,7 @@ footer .col {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 20px;    
+    /* margin-bottom: 20px;     */
 }
 
 footer .logo{
@@ -423,11 +425,37 @@ footer h3{
 
 footer p{
     font-size: 12px;
-    margin: 0 0 8 0;
+    margin: 0 0 8px 0;
     padding-bottom: 10px;
 }
 footer a{
     font-size: 13px;
-    color: #131313;
+    color: #131313; 
+}
 
+
+.copywrite{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.aboutus a , .account a{
+    padding-bottom: 10px;
+}
+
+footer .icons i{
+    cursor: pointer;
+    padding-right: 5px;
+} 
+footer .install .row img{
+    border: 0.5px solid #7E4897;
+}
+
+footer .install img,footer .install p{
+    margin: 3px 0px;
+}
+
+footer .icons i:hover,
+footer a:hover{
+    color: #7E4897;
 }
