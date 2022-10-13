@@ -125,6 +125,7 @@ p{
 }
 #hero h4{
     padding-bottom: 10px;
+    color: blue;
 }
 #hero p{
     color: white;
@@ -153,7 +154,7 @@ p{
     /* grid-template-columns: auto auto; */
     /* come back to it */
     /* justify-content: space-between; */
-    justify-content: space-around;
+    justify-content: space-around; 
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -477,9 +478,6 @@ footer a:hover{
     color: #7E4897;
 }
 
-@media only screen and (orientation:portrait) and (max-width
-) {
-}
 
 @media(max-width:799px){
     #hero .main {
@@ -493,7 +491,7 @@ footer a:hover{
         position: fixed;
         top: 0;
         right:-300px;
-        height: 100vh;
+        height: 60vh;
         width: 300px;
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
@@ -564,7 +562,7 @@ footer a:hover{
     }
     #menu i {
         color: #131313;
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 24px;
     }
     
@@ -581,9 +579,13 @@ footer a:hover{
     #proudcts .pro {
         width: 100%;
     }
+    #sm-banner .banner-box h4 {
+        color:blue;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
     
  }
   
-    
-
-
